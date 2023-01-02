@@ -59,8 +59,6 @@ public class HeroBehaviour : MonoBehaviour
 
         if (collision.transform.eulerAngles.z == 315)
         {
-            print("Exit");
-
             _debug.material.color = Color.red;
 
             _controllable = true;
